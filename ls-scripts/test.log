@@ -1,0 +1,14 @@
+Checking for OpenH264...
+OpenH264 failed to initialize.
+Faker client created:
+  Gateway URL    : https://ummanu-uk-media3-internal.ummanu.health/sync
+  Application ID : FEMI-Product
+  User ID        : bb7cf771cf204c3382cfa965d19f7a2b
+  Device ID      : a45b87c098aa4026a41a3faaa28b598c
+  ID             : 4c5c5ccaa2ce4409b6631dd0ac134508
+Client '4c5c5ccaa2ce4409b6631dd0ac134508' state is registering.
+Connection '7cb37dd511974650836c71d20c6b16f2' state is connecting.
+Client '4c5c5ccaa2ce4409b6631dd0ac134508' state is registered.
+Faker client registered: FEMI-Product
+Faker client joined: myStream
+... instance [ 299 ] started

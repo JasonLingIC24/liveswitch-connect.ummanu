@@ -1,0 +1,1215 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CommandLineParser/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FM.LiveSwitch/1.12.3.46193": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "3.1.0",
+          "Mono.Posix.NETStandard": "1.0.0",
+          "SkiaSharp": "1.68.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.dll": {},
+          "lib/netstandard2.0/FM.LiveSwitch.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.dll": {},
+          "lib/netstandard2.0/FM.LiveSwitch.dll": {}
+        }
+      },
+      "FM.LiveSwitch.OpenH264/1.12.3.46193": {
+        "type": "package",
+        "dependencies": {
+          "FM.LiveSwitch": "1.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FM.LiveSwitch.OpenH264.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FM.LiveSwitch.OpenH264.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libopenh264fm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libopenh264fm.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libopenh264fm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libopenh264fm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libopenh264fm.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-x64/native/libopenh264fm.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/libopenh264fm.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "FM.LiveSwitch.Opus/1.12.3.46193": {
+        "type": "package",
+        "dependencies": {
+          "FM.LiveSwitch": "1.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FM.LiveSwitch.Opus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FM.LiveSwitch.Opus.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libopusfm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libopusfm.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libopusfm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libopusfm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libopusfm.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm/native/libopusfm.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/libopusfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/libopusfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "FM.LiveSwitch.Vpx/1.12.3.46193": {
+        "type": "package",
+        "dependencies": {
+          "FM.LiveSwitch": "1.12.0",
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FM.LiveSwitch.Vpx.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FM.LiveSwitch.Vpx.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libvpxfm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libvpxfm.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libvpxfm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libvpxfm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libvpxfm.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm/native/libvpxfm.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/libvpxfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/libvpxfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "FM.LiveSwitch.Yuv/1.12.3.46193": {
+        "type": "package",
+        "dependencies": {
+          "FM.LiveSwitch": "1.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FM.LiveSwitch.Yuv.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FM.LiveSwitch.Yuv.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libyuvfm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libyuvfm.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libyuvfm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libyuvfm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libyuvfm.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm/native/libyuvfm.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/libyuvfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/libyuvfm.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "GitVersion.MsBuild/5.6.8": {
+        "type": "package",
+        "build": {
+          "build/GitVersion.MsBuild.props": {},
+          "build/GitVersion.MsBuild.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/GitVersion.MsBuild.props": {},
+          "buildMultiTargeting/GitVersion.MsBuild.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "3.1.3",
+          "Microsoft.Extensions.DependencyInjection": "3.1.3",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.3",
+          "Microsoft.Extensions.Options": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
+          "Microsoft.Extensions.Primitives": "3.1.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Mono.Posix.NETStandard/1.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Mono.Posix.NETStandard.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMonoPosixHelper.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMonoPosixHelper.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-armel/native/libMonoPosixHelper.so": {
+            "assetType": "native",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-x64/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMonoPosixHelper.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libMonoPosixHelper.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libMonoPosixHelper.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MonoPosixHelper.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libMonoPosixHelper.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/lib/netstandard2.0/Mono.Posix.NETStandard.dll": {
+            "assetType": "runtime",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/MonoPosixHelper.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libMonoPosixHelper.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "NDILibDotNet2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NDILibDotNet2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NDILibDotNet2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandLineParser/2.8.0": {
+      "sha512": "eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "type": "package",
+      "path": "commandlineparser/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CommandLine20.png",
+        "License.md",
+        "README.md",
+        "commandlineparser.2.8.0.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "lib/net461/CommandLine.dll",
+        "lib/net461/CommandLine.xml",
+        "lib/netstandard2.0/CommandLine.dll",
+        "lib/netstandard2.0/CommandLine.xml"
+      ]
+    },
+    "FM.LiveSwitch/1.12.3.46193": {
+      "sha512": "JxNSPpIn9QwNgREPSvfm3R25npSVmLtPTPodIuVDrAseY3wKcOlS7kCgFOX1p/RkHQSnjysQQtuFgD6YhqjmwQ==",
+      "type": "package",
+      "path": "fm.liveswitch/1.12.3.46193",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fm.liveswitch.1.12.3.46193.nupkg.sha512",
+        "fm.liveswitch.nuspec",
+        "lib/MonoAndroid500/BouncyCastle.dll",
+        "lib/MonoAndroid700/FM.LiveSwitch.dll",
+        "lib/Xamarin.Mac20/BouncyCastle.dll",
+        "lib/Xamarin.Mac20/FM.LiveSwitch.dll",
+        "lib/Xamarin.iOS10/BouncyCastle.dll",
+        "lib/Xamarin.iOS10/FM.LiveSwitch.dll",
+        "lib/net20/BouncyCastle.dll",
+        "lib/net20/FM.LiveSwitch.dll",
+        "lib/net35/BouncyCastle.dll",
+        "lib/net35/FM.LiveSwitch.dll",
+        "lib/net40/BouncyCastle.dll",
+        "lib/net40/FM.LiveSwitch.dll",
+        "lib/net45/BouncyCastle.dll",
+        "lib/net45/FM.LiveSwitch.dll",
+        "lib/netstandard2.0/BouncyCastle.dll",
+        "lib/netstandard2.0/FM.LiveSwitch.dll",
+        "lib/uap/BouncyCastle.dll",
+        "lib/uap/FM.LiveSwitch.dll"
+      ]
+    },
+    "FM.LiveSwitch.OpenH264/1.12.3.46193": {
+      "sha512": "qDWdfBvbi0BFvlN9lCUvs8qrMQDUwMN2fQFnW5PhR/3H1BxNcU2cJLc/BKFGF4laMTsBNJaXB6egWV0FxHeCmQ==",
+      "type": "package",
+      "path": "fm.liveswitch.openh264/1.12.3.46193",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fm.liveswitch.openh264.1.12.3.46193.nupkg.sha512",
+        "fm.liveswitch.openh264.nuspec",
+        "lib/MonoAndroid700/FM.LiveSwitch.OpenH264.dll",
+        "lib/net35/FM.LiveSwitch.OpenH264.dll",
+        "lib/net40/FM.LiveSwitch.OpenH264.dll",
+        "lib/net45/FM.LiveSwitch.OpenH264.dll",
+        "lib/netstandard2.0/FM.LiveSwitch.OpenH264.dll",
+        "lib/uap/FM.LiveSwitch.OpenH264.dll",
+        "runtimes/linux-x64/native/libopenh264fm.so",
+        "runtimes/linux-x86/native/libopenh264fm.so",
+        "runtimes/osx-x64/native/libopenh264fm.dylib",
+        "runtimes/win-x64/native/libopenh264fm.dll",
+        "runtimes/win-x86/native/libopenh264fm.dll",
+        "runtimes/win10-x64/native/libopenh264fm.dll",
+        "runtimes/win10-x86/native/libopenh264fm.dll"
+      ]
+    },
+    "FM.LiveSwitch.Opus/1.12.3.46193": {
+      "sha512": "4oSMIJtqtczes6JEjrpbgBhVhR5yXsxubtl4zSUnAKAbd1d/IOOfoGhIRKlWxJWoYLo4DDIgb+TNipugM++WUw==",
+      "type": "package",
+      "path": "fm.liveswitch.opus/1.12.3.46193",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fm.liveswitch.opus.1.12.3.46193.nupkg.sha512",
+        "fm.liveswitch.opus.nuspec",
+        "lib/MonoAndroid700/FM.LiveSwitch.Opus.dll",
+        "lib/Xamarin.Mac20/FM.LiveSwitch.Opus.dll",
+        "lib/Xamarin.iOS10/FM.LiveSwitch.Opus.dll",
+        "lib/net35/FM.LiveSwitch.Opus.dll",
+        "lib/net40/FM.LiveSwitch.Opus.dll",
+        "lib/net45/FM.LiveSwitch.Opus.dll",
+        "lib/netstandard2.0/FM.LiveSwitch.Opus.dll",
+        "lib/uap/FM.LiveSwitch.Opus.dll",
+        "runtimes/linux-x64/native/libopusfm.so",
+        "runtimes/linux-x86/native/libopusfm.so",
+        "runtimes/osx-x64/native/libopusfm.dylib",
+        "runtimes/win-x64/native/libopusfm.dll",
+        "runtimes/win-x86/native/libopusfm.dll",
+        "runtimes/win10-arm/native/libopusfm.dll",
+        "runtimes/win10-x64/native/libopusfm.dll",
+        "runtimes/win10-x86/native/libopusfm.dll"
+      ]
+    },
+    "FM.LiveSwitch.Vpx/1.12.3.46193": {
+      "sha512": "yy1DOPRJMAP0WZ1wGwaKBhGgh1Ngsevd30Psp7HJ2QodebHnDt//edEJDrZRbJh+l6nMMypmTOSzjfdQ6147Fg==",
+      "type": "package",
+      "path": "fm.liveswitch.vpx/1.12.3.46193",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fm.liveswitch.vpx.1.12.3.46193.nupkg.sha512",
+        "fm.liveswitch.vpx.nuspec",
+        "lib/MonoAndroid700/FM.LiveSwitch.Vpx.dll",
+        "lib/Xamarin.Mac20/FM.LiveSwitch.Vpx.dll",
+        "lib/Xamarin.iOS10/FM.LiveSwitch.Vpx.dll",
+        "lib/net35/FM.LiveSwitch.Vpx.dll",
+        "lib/net40/FM.LiveSwitch.Vpx.dll",
+        "lib/net45/FM.LiveSwitch.Vpx.dll",
+        "lib/netstandard2.0/FM.LiveSwitch.Vpx.dll",
+        "lib/uap/FM.LiveSwitch.Vpx.dll",
+        "runtimes/linux-x64/native/libvpxfm.so",
+        "runtimes/linux-x86/native/libvpxfm.so",
+        "runtimes/osx-x64/native/libvpxfm.dylib",
+        "runtimes/win-x64/native/libvpxfm.dll",
+        "runtimes/win-x86/native/libvpxfm.dll",
+        "runtimes/win10-arm/native/libvpxfm.dll",
+        "runtimes/win10-x64/native/libvpxfm.dll",
+        "runtimes/win10-x86/native/libvpxfm.dll"
+      ]
+    },
+    "FM.LiveSwitch.Yuv/1.12.3.46193": {
+      "sha512": "uoJUnmm9qS4i+xCB1mS5Fz4fw5B0mppbdaeyBlX1XKjG/AFzLs6q4E4taebsU19ayVA4BBwe7GJRq6pJNwHXLg==",
+      "type": "package",
+      "path": "fm.liveswitch.yuv/1.12.3.46193",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fm.liveswitch.yuv.1.12.3.46193.nupkg.sha512",
+        "fm.liveswitch.yuv.nuspec",
+        "lib/MonoAndroid700/FM.LiveSwitch.Yuv.dll",
+        "lib/Xamarin.Mac20/FM.LiveSwitch.Yuv.dll",
+        "lib/Xamarin.iOS10/FM.LiveSwitch.Yuv.dll",
+        "lib/net35/FM.LiveSwitch.Yuv.dll",
+        "lib/net40/FM.LiveSwitch.Yuv.dll",
+        "lib/net45/FM.LiveSwitch.Yuv.dll",
+        "lib/netstandard2.0/FM.LiveSwitch.Yuv.dll",
+        "lib/uap/FM.LiveSwitch.Yuv.dll",
+        "runtimes/linux-x64/native/libyuvfm.so",
+        "runtimes/linux-x86/native/libyuvfm.so",
+        "runtimes/osx-x64/native/libyuvfm.dylib",
+        "runtimes/win-x64/native/libyuvfm.dll",
+        "runtimes/win-x86/native/libyuvfm.dll",
+        "runtimes/win10-arm/native/libyuvfm.dll",
+        "runtimes/win10-x64/native/libyuvfm.dll",
+        "runtimes/win10-x86/native/libyuvfm.dll"
+      ]
+    },
+    "GitVersion.MsBuild/5.6.8": {
+      "sha512": "RrAnFTX3oi0DbsNYOAGVfr7Ie/pGV2bHZcslPu7kk9YKKCePylbctg5pIX5cboOqFhtZsjk721qUxaVw1XuE0A==",
+      "type": "package",
+      "path": "gitversion.msbuild/5.6.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/GitVersion.MsBuild.props",
+        "build/GitVersion.MsBuild.targets",
+        "buildMultiTargeting/GitVersion.MsBuild.props",
+        "buildMultiTargeting/GitVersion.MsBuild.targets",
+        "gitversion.msbuild.5.6.8.nupkg.sha512",
+        "gitversion.msbuild.nuspec",
+        "package_icon.png",
+        "tools/GitVersion.MsBuild.props",
+        "tools/GitVersion.MsBuild.targets",
+        "tools/net48/GitVersion.Core.dll",
+        "tools/net48/GitVersion.LibGit2Sharp.dll",
+        "tools/net48/GitVersion.MsBuild.deps.json",
+        "tools/net48/GitVersion.MsBuild.dll",
+        "tools/net48/GitVersion.xml",
+        "tools/net48/JetBrains.Annotations.dll",
+        "tools/net48/LibGit2Sharp.dll",
+        "tools/net48/LibGit2Sharp.dll.config",
+        "tools/net48/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.dll",
+        "tools/net48/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/net48/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net48/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net48/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.Hosting.dll",
+        "tools/net48/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/net48/Microsoft.Extensions.Logging.Console.dll",
+        "tools/net48/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/net48/Microsoft.Extensions.Logging.EventLog.dll",
+        "tools/net48/Microsoft.Extensions.Logging.EventSource.dll",
+        "tools/net48/Microsoft.Extensions.Logging.dll",
+        "tools/net48/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/net48/Microsoft.Extensions.Options.dll",
+        "tools/net48/Microsoft.Extensions.Primitives.dll",
+        "tools/net48/Polly.dll",
+        "tools/net48/System.Buffers.dll",
+        "tools/net48/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net48/System.Memory.dll",
+        "tools/net48/System.Numerics.Vectors.dll",
+        "tools/net48/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net48/System.Text.Encodings.Web.dll",
+        "tools/net48/System.Text.Json.dll",
+        "tools/net48/System.Threading.Tasks.Extensions.dll",
+        "tools/net48/System.ValueTuple.dll",
+        "tools/net48/YamlDotNet.dll",
+        "tools/net48/gitversion.exe",
+        "tools/net48/gitversion.exe.config",
+        "tools/net48/lib/linux-arm/libgit2-6777db8.so",
+        "tools/net48/lib/linux-arm64/libgit2-6777db8.so",
+        "tools/net48/lib/linux-musl-x64/libgit2-6777db8.so",
+        "tools/net48/lib/linux-x64/libgit2-6777db8.so",
+        "tools/net48/lib/osx/libgit2-6777db8.dylib",
+        "tools/net48/lib/win32/x64/git2-6777db8.dll",
+        "tools/net48/lib/win32/x64/git2-6777db8.pdb",
+        "tools/net48/lib/win32/x86/git2-6777db8.dll",
+        "tools/net48/lib/win32/x86/git2-6777db8.pdb",
+        "tools/net5.0/GitVersion.Core.dll",
+        "tools/net5.0/GitVersion.LibGit2Sharp.dll",
+        "tools/net5.0/GitVersion.MsBuild.deps.json",
+        "tools/net5.0/GitVersion.MsBuild.dll",
+        "tools/net5.0/GitVersion.xml",
+        "tools/net5.0/LibGit2Sharp.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "tools/net5.0/Microsoft.Extensions.Configuration.dll",
+        "tools/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/net5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/net5.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net5.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net5.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net5.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/net5.0/Microsoft.Extensions.Hosting.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.Console.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.EventLog.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.EventSource.dll",
+        "tools/net5.0/Microsoft.Extensions.Logging.dll",
+        "tools/net5.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/net5.0/Microsoft.Extensions.Options.dll",
+        "tools/net5.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net5.0/Polly.dll",
+        "tools/net5.0/System.Diagnostics.EventLog.dll",
+        "tools/net5.0/YamlDotNet.dll",
+        "tools/net5.0/gitversion.deps.json",
+        "tools/net5.0/gitversion.dll",
+        "tools/net5.0/gitversion.exe",
+        "tools/net5.0/gitversion.runtimeconfig.json",
+        "tools/net5.0/runtimes/linux-arm/native/libgit2-6777db8.so",
+        "tools/net5.0/runtimes/linux-arm64/native/libgit2-6777db8.so",
+        "tools/net5.0/runtimes/linux-musl-x64/native/libgit2-6777db8.so",
+        "tools/net5.0/runtimes/linux-x64/native/libgit2-6777db8.so",
+        "tools/net5.0/runtimes/osx/native/libgit2-6777db8.dylib",
+        "tools/net5.0/runtimes/win-x64/native/git2-6777db8.dll",
+        "tools/net5.0/runtimes/win-x64/native/git2-6777db8.pdb",
+        "tools/net5.0/runtimes/win-x86/native/git2-6777db8.dll",
+        "tools/net5.0/runtimes/win-x86/native/git2-6777db8.pdb",
+        "tools/net5.0/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
+        "tools/netcoreapp3.1/GitVersion.Core.dll",
+        "tools/netcoreapp3.1/GitVersion.LibGit2Sharp.dll",
+        "tools/netcoreapp3.1/GitVersion.MsBuild.deps.json",
+        "tools/netcoreapp3.1/GitVersion.MsBuild.dll",
+        "tools/netcoreapp3.1/GitVersion.xml",
+        "tools/netcoreapp3.1/LibGit2Sharp.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Hosting.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.EventLog.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.EventSource.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "tools/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "tools/netcoreapp3.1/Microsoft.Win32.Registry.dll",
+        "tools/netcoreapp3.1/Polly.dll",
+        "tools/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll",
+        "tools/netcoreapp3.1/System.Diagnostics.EventLog.dll",
+        "tools/netcoreapp3.1/System.Security.AccessControl.dll",
+        "tools/netcoreapp3.1/System.Security.Principal.Windows.dll",
+        "tools/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "tools/netcoreapp3.1/System.Text.Json.dll",
+        "tools/netcoreapp3.1/YamlDotNet.dll",
+        "tools/netcoreapp3.1/gitversion.deps.json",
+        "tools/netcoreapp3.1/gitversion.dll",
+        "tools/netcoreapp3.1/gitversion.exe",
+        "tools/netcoreapp3.1/gitversion.runtimeconfig.json",
+        "tools/netcoreapp3.1/runtimes/linux-arm/native/libgit2-6777db8.so",
+        "tools/netcoreapp3.1/runtimes/linux-arm64/native/libgit2-6777db8.so",
+        "tools/netcoreapp3.1/runtimes/linux-musl-x64/native/libgit2-6777db8.so",
+        "tools/netcoreapp3.1/runtimes/linux-x64/native/libgit2-6777db8.so",
+        "tools/netcoreapp3.1/runtimes/osx/native/libgit2-6777db8.dylib",
+        "tools/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "tools/netcoreapp3.1/runtimes/win-x64/native/git2-6777db8.dll",
+        "tools/netcoreapp3.1/runtimes/win-x64/native/git2-6777db8.pdb",
+        "tools/netcoreapp3.1/runtimes/win-x86/native/git2-6777db8.dll",
+        "tools/netcoreapp3.1/runtimes/win-x86/native/git2-6777db8.pdb",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "tools/netcoreapp3.1/runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/3.1.3": {
+      "sha512": "nTr4JgTSJScDBD3lahIh1jUBH8A43oG1cqID1qLoHSZhtegslpIyTYxmnehtUKi6xdY5j9R0oWeeGEP+JTcmAg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.3": {
+      "sha512": "d3vpIJdw+hRtkW1WoNTXhCczakVVId30Tj58li5GbJxz6MVGi8gy4+7JdLBb/wuHFd4+25cZe+Z0WPi207rBbQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.3": {
+      "sha512": "GouLlU6JOffNNudJpC+eGtGMe9o5ds2oH9dsJUEH1QS13eLl60eNX9rHicaE40c252e7Aixn3sS7yregDfpQ8g==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/3.1.3": {
+      "sha512": "H/d/jt4Pdp2iYx28shLkxfgQpk9S7cCCTEjtS/61PbZcFAT/mc4cemmOlBdED7+CqmEAIDg8X4Fo0KtADaNizg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+      "sha512": "woeS5XeBChU76EmtFCwGHKgBfsYIn76u3myDq4zNY2ZrcwzBMNEViK2FRgXDgF11PBNbGdKCXsWFFZDtqPW0nQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging/3.1.3": {
+      "sha512": "mAuOMhgB73dgVYeJzrksGU6BUBr7vIruFJyxssYK1nmDS+ude0kShILrXPq2iGHOvYNacczW4VSa6zcssUh4iQ==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.3.1.3.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.3": {
+      "sha512": "j6r0E+OVinD4s13CIZASYJLLLApStb1yh5Vig7moB2FE1UsMRj4TYJ/xioDjreVA0dyOFpbWny1/n2iSJMbmNg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.3": {
+      "sha512": "RyOSOg/kHW3AXojWGSdOs3BXJJnE9Sc6RVvP4LhnY5oaC2Da4k8CWfIw7I+QThxV8HTCPjzmON9c+QO+JZggNg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.3.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.3": {
+      "sha512": "5gK6qeq9CBCHBfB3Tim3jCJTLafT9FXFBAZZq39rC8adz8mxcjVAuQSw3jGgHqoRk0jwtXKFhXJUVur8vfeuFg==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Mono.Posix.NETStandard/1.0.0": {
+      "sha512": "vSN/L1uaVwKsiLa95bYu2SGkF0iY3xMblTfxc8alSziPuVfJpj3geVqHGAA75J7cZkMuKpFVikz82Lo6y6LLdA==",
+      "type": "package",
+      "path": "mono.posix.netstandard/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Posix.NETStandard.dll",
+        "mono.posix.netstandard.1.0.0.nupkg.sha512",
+        "mono.posix.netstandard.nuspec",
+        "ref/net40/Mono.Posix.NETStandard.dll",
+        "ref/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-arm/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-arm/native/libMonoPosixHelper.so",
+        "runtimes/linux-arm64/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-arm64/native/libMonoPosixHelper.so",
+        "runtimes/linux-armel/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-armel/native/libMonoPosixHelper.so",
+        "runtimes/linux-x64/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-x64/native/libMonoPosixHelper.so",
+        "runtimes/linux-x86/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/linux-x86/native/libMonoPosixHelper.so",
+        "runtimes/osx/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/osx/native/libMonoPosixHelper.dylib",
+        "runtimes/win-x64/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/win-x64/native/MonoPosixHelper.dll",
+        "runtimes/win-x64/native/libMonoPosixHelper.dll",
+        "runtimes/win-x86/lib/netstandard2.0/Mono.Posix.NETStandard.dll",
+        "runtimes/win-x86/native/MonoPosixHelper.dll",
+        "runtimes/win-x86/native/libMonoPosixHelper.dll"
+      ]
+    },
+    "SkiaSharp/1.68.0": {
+      "sha512": "ptuxAKk9FiClNnAgWM8hVMCYw/B0hUJWZ8W6efnIAtJmJn/Xl4jvxxDF5WOqfQYCLVzxXw5gvBPVxvTLblFp0g==",
+      "type": "package",
+      "path": "skiasharp/1.68.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "skiasharp.1.68.0.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "NDILibDotNet2/1.0.0": {
+      "type": "project",
+      "path": "../NDILibDotNet2/NDILibDotNet2.csproj",
+      "msbuildProject": "../NDILibDotNet2/NDILibDotNet2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CommandLineParser >= 2.8.0",
+      "FM.LiveSwitch >= 1.12.3.46193",
+      "FM.LiveSwitch.OpenH264 >= 1.12.3.46193",
+      "FM.LiveSwitch.Opus >= 1.12.3.46193",
+      "FM.LiveSwitch.Vpx >= 1.12.3.46193",
+      "FM.LiveSwitch.Yuv >= 1.12.3.46193",
+      "GitVersion.MsBuild >= 5.6.8",
+      "Microsoft.Extensions.Logging >= 3.1.3",
+      "NDILibDotNet2 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jasonl/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jasonl/src/main/liveswitch-connect/src/FM.LiveSwitch.Connect/FM.LiveSwitch.Connect.csproj",
+      "projectName": "lsconnect",
+      "projectPath": "/Users/jasonl/src/main/liveswitch-connect/src/FM.LiveSwitch.Connect/FM.LiveSwitch.Connect.csproj",
+      "packagesPath": "/Users/jasonl/.nuget/packages/",
+      "outputPath": "/Users/jasonl/src/main/liveswitch-connect/src/FM.LiveSwitch.Connect/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jasonl/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/jasonl/src/main/liveswitch-connect/src/NDILibDotNet2/NDILibDotNet2.csproj": {
+              "projectPath": "/Users/jasonl/src/main/liveswitch-connect/src/NDILibDotNet2/NDILibDotNet2.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          },
+          "FM.LiveSwitch": {
+            "target": "Package",
+            "version": "[1.12.3.46193, )"
+          },
+          "FM.LiveSwitch.OpenH264": {
+            "target": "Package",
+            "version": "[1.12.3.46193, )"
+          },
+          "FM.LiveSwitch.Opus": {
+            "target": "Package",
+            "version": "[1.12.3.46193, )"
+          },
+          "FM.LiveSwitch.Vpx": {
+            "target": "Package",
+            "version": "[1.12.3.46193, )"
+          },
+          "FM.LiveSwitch.Yuv": {
+            "target": "Package",
+            "version": "[1.12.3.46193, )"
+          },
+          "GitVersion.MsBuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.6.8, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

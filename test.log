@@ -1,0 +1,42 @@
+Checking for OpenH264...
+OpenH264 failed to initialize.
+Faker client created:
+  Gateway URL    : https://dev-liveswitch.dev.ummanu.health/sync
+  Application ID : FEMI-Product
+  User ID        : 9722618c857840738fbd3ef99cbb06f3
+  Device ID      : ed8f2a8f98e44e359bae2d0ae5120d02
+  ID             : 168544ef5205402c96be2add2bb59888
+Client '168544ef5205402c96be2add2bb59888' state is registering.
+Client '168544ef5205402c96be2add2bb59888' state is registered.
+Faker client registered: FEMI-Product
+Faker client joined: myStream-1
+Faker streams initialized.
+Faker connection created:
+  ID : 2118f3c8413144d7aea657953a43a1f1
+Checking for OpenH264...
+OpenH264 failed to initialize.
+Faker client created:
+  Gateway URL    : https://dev-liveswitch.dev.ummanu.health/sync
+  Application ID : FEMI-Product
+  User ID        : 1e59c10fe4e347d2a3db6012f4b99803
+  Device ID      : c0c4ab6e46404f2eb0afbd783446506c
+  ID             : 9527540a119e4eb598a3d82cb7d06312
+Client '9527540a119e4eb598a3d82cb7d06312' state is registering.
+Client '9527540a119e4eb598a3d82cb7d06312' state is registered.
+Faker client registered: FEMI-Product
+Faker client joined: myStream-1
+Faker streams initialized.
+Faker connection created:
+  ID : 297cc0606e1044aba6835b193851acc5
+Connection '2118f3c8413144d7aea657953a43a1f1' state is initializing.
+Connection '2118f3c8413144d7aea657953a43a1f1' state is connecting.
+Connection '297cc0606e1044aba6835b193851acc5' state is initializing.
+Connection '2118f3c8413144d7aea657953a43a1f1' state is connected.
+Faker connection connected.
+Faker streams started.
+Faker is ready and waiting for exit signal or disconnect...
+Connection '297cc0606e1044aba6835b193851acc5' state is connecting.
+Connection '297cc0606e1044aba6835b193851acc5' state is connected.
+Faker connection connected.
+Faker streams started.
+Faker is ready and waiting for exit signal or disconnect...
